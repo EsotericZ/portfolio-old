@@ -1,16 +1,26 @@
 * {
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-padding-top: 80px;
 }
 
 body {
+    margin: 0;
     background-image: url("../images/background.jpg");
 }
 
 nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     background-color: yellow;
-    padding: 10px;
+    padding: 5px 0px 5px 15px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    top: 0pt;
+    left: 0pt;
 }
 
 nav a {
@@ -28,27 +38,34 @@ nav a {
     font-size: 20px;
 }
 
-main {
-    display: flex;
-}
-
-aside {
-    flex: 30%;
-    background-color: green;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
 section {
-    flex: 70%;
+    width: 100%;
+    padding: 0 7%;
+    margin: 0;
+    height: 100vh;
+}
+
+#about-me {
+    padding-top: 80px;
     background-color: red;
-    flex-wrap: wrap;
+}
+
+p {
+    color: blue;
 }
 
 footer {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     background-color: hotpink;
+    padding: 5px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    bottom: 0pt;
+    left: 0pt;
 }
 
 footer a {
