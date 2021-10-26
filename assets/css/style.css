@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    scroll-padding-top: 70px;
+    /* scroll-padding-top: 70px; */
 }
 
 body {
@@ -69,9 +69,46 @@ section {
     background-image: url("../images/bg2.jpg");
 }
 
-#portfolio {
+#projects {
     background-image: url("../images/bg3.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.first {
+    width: 50%;
+    flex: 1;
+}
+
+.lbox {
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    background-color: pink;
+    margin-left: 50px;
+}
+
+.second {
+    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rbox1, .rbox2, .rbox3, .rbox4 {
+    border-radius: 10px;
+    width: 45%;
+    height: 225px;
+    background-color: turquoise;
+    margin: 25px 25px 10px 10px;
+}
+
+/* @media  (min-width: 992px) {
+    .lbox {
+        flex: 1 1 160px;
+    }
+} */
 
 footer {
     position: fixed;
