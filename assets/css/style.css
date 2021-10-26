@@ -1,12 +1,11 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 70px;
 }
 
 body {
     margin: 0;
-    background-image: url("../images/background.jpg");
 }
 
 nav {
@@ -40,18 +39,22 @@ nav a {
 
 section {
     width: 100%;
-    padding: 0 7%;
+    display: table;
     margin: 0;
     height: 100vh;
 }
 
 #about-me {
-    padding-top: 80px;
-    background-color: red;
+    padding-top: 70px;
+    background-image: url("../images/bg1.jpg");
 }
 
-p {
-    color: blue;
+#work {
+    background-image: url("../images/bg2.jpg");
+}
+
+#random {
+    background-image: url("../images/bg3.jpg");
 }
 
 footer {
