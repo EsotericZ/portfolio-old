@@ -13,7 +13,7 @@ nav {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    background-color: yellow;
+    background-color: darkred;
     padding: 5px 0px 5px 15px;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -44,16 +44,32 @@ section {
     height: 100vh;
 }
 
-#about-me {
-    padding-top: 70px;
+#home {
+    /* padding-top: 70px; */
     background-image: url("../images/bg1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#work {
+#home img {
+    height: 50%;
+    border: 8px solid black;
+    border-radius: 50%;
+}
+
+#home h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#about-me {
     background-image: url("../images/bg2.jpg");
 }
 
-#random {
+#portfolio {
     background-image: url("../images/bg3.jpg");
 }
 
@@ -62,7 +78,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: hotpink;
+    background-color: green;
     padding: 5px;
     background-repeat: repeat;
     background-attachment: scroll;
