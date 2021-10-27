@@ -28,6 +28,32 @@ nav a {
     font-weight: bold;
     color: red;
     font-size: 20px;
+
+    transition: all 2s;
+}
+
+nav a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
+nav a:hover {
+    color: #fff;
+    z-index: 1;
+}
+
+nav a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+nav p {
+    color: red;
 }
 
 .left-link {
@@ -67,6 +93,22 @@ section {
 
 #about-me {
     background-image: url("../images/bg2.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about-me h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#about-me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #projects {
