@@ -118,17 +118,40 @@ section {
     justify-content: center;
 }
 
+#projects header {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .first {
     width: 50%;
     flex: 1;
 }
 
 .lbox {
-    border-radius: 10px;
+    border-radius: 15px;
+    border: solid grey 10px;
     width: 90%;
     height: 500px;
     background-color: pink;
     margin-left: 50px;
+    padding: 25px;
+    position: relative;
+}
+
+.lbox p {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    left: 20;
+}
+
+.lbox a {
+    color: white;
+    font-size: 20px;
+    position: relative;
 }
 
 .second {
@@ -140,10 +163,12 @@ section {
 
 .rbox1, .rbox2, .rbox3, .rbox4 {
     border-radius: 10px;
+    border: solid wheat 5px;
     width: 45%;
     height: 225px;
     background-color: turquoise;
     margin: 25px 25px 10px 10px;
+    padding: 25px;
 }
 
 /* @media  (min-width: 992px) {
