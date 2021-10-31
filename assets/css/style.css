@@ -8,6 +8,7 @@ body {
     margin: 0;
 }
 
+/* NAVIGATION BAR CHARACTERISTICS */
 nav {
     position: fixed;
     width: 100%;
@@ -31,9 +32,10 @@ nav a {
     transition: all 2s;
 }
 
+/* WHEN HOVERING OVER LINKS IN NAV BAR HIGHLIGHT WHITE */
 nav a:after {
     text-align: left;
-    content: '.';
+    content: '';
     margin: 0;
     opacity: 0;
 }
@@ -55,6 +57,7 @@ nav p {
     color: red;
 }
 
+/* CREATE A LEFT SIDE ELEMENT IN THE NAV BAR */
 .left-link {
     flex: 1 1 200px;
     font-weight: bold;
@@ -69,6 +72,7 @@ section {
     height: 100vh;
 }
 
+/* CHARACTERITICS FOR THE HOME SECTION */
 #home {
     background-image: url("../images/bg1.jpg");
     display: flex;
@@ -92,6 +96,7 @@ section {
     text-align: center;
 }
 
+/* CHARACTERITICS FOR ABOUT ME SECTION */
 #about-me {
     background-image: url("../images/bg2.jpg");
     display: flex;
@@ -114,6 +119,7 @@ section {
     text-align: center;
 }
 
+/* CHARACTERITICS FOR PROJECT SECTION */
 #projects {
     background-image: url("../images/bg3.jpg");
     display: flex;
@@ -127,6 +133,7 @@ section {
     font-size: 25px;
 }
 
+/* FLEX BOX LEFT SIDE (ONE BOX) */
 .first {
     width: 50%;
     flex: 1;
@@ -158,6 +165,7 @@ section {
     position: relative;
 }
 
+/* FLEX BOX RIGHT SIDE (FOUR BOXES) */
 .second {
     width: 50%;
     flex: 1;
@@ -190,6 +198,7 @@ section {
     left: 20;
 }
 
+/* FOOTER CHARACTERITICS */
 footer {
     position: fixed;
     width: 100%;
@@ -212,7 +221,7 @@ footer a {
     font-size: 20px;
 }
 
-/* RESIZING THE SCREEN - CHANGE PROPERTIES */
+/* RESIZING THE SCREEN - UNDER 775px CHANGE PROPERTIES */
 @media screen and (max-width: 775px) {
     nav {
         flex-direction: column;
@@ -242,7 +251,7 @@ footer a {
     }
 }
 
-/* RESIZING THE SCREEN - CHANGE PROPERTIES */
+/* RESIZING THE SCREEN - UNDER 651px CHANGE PROPERTIES */
 @media screen and (max-width: 651px) {
     nav {
         flex-direction: column;
