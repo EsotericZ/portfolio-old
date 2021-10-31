@@ -28,7 +28,6 @@ nav a {
     font-weight: bold;
     color: red;
     font-size: 20px;
-
     transition: all 2s;
 }
 
@@ -83,6 +82,8 @@ section {
     height: 50%;
     border: 8px solid black;
     border-radius: 50%;
+    /* box-shadow: 0px 0px 35px rgba(168, 170, 168, 0.952); */
+    box-shadow: 0px 0px 35px hotpink;
 }
 
 #home h1 {
@@ -109,6 +110,7 @@ section {
     color: white;
     font-size: 30px;
     font-weight: bold;
+    margin: 0px 30px 0px 30px;
 }
 
 #projects {
@@ -135,6 +137,7 @@ section {
     width: 90%;
     height: 500px;
     background-color: pink;
+    box-shadow: 5px 5px rgba(81, 241, 41, 0.952);
     margin-left: 50px;
     padding: 25px;
     position: relative;
@@ -163,18 +166,31 @@ section {
 
 .rbox1, .rbox2, .rbox3, .rbox4 {
     border-radius: 10px;
-    border: solid wheat 5px;
+    border: solid white 5px;
     width: 45%;
     height: 225px;
     background-color: turquoise;
     margin: 25px 25px 10px 10px;
     padding: 25px;
+    box-shadow: 5px 5px rgba(247, 174, 19, 0.75);
 }
 
-/* @media  (min-width: 992px) {
-    .lbox {
-        flex: 1 1 160px;
-    }
+.rbox1 a, .rbox2 a, .rbox3 a, .rbox4 a {
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.rbox1 p, .rbox2 p, .rbox3 p, .rbox4 p {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    left: 20;
+}
+
+/* @media screen and (min-width: 1400px) {
+    gahhhhhh
 } */
 
 footer {
