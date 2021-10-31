@@ -11,5 +11,4 @@ https://esotericz.github.io/hw-week02/
 ![Alt text](/assets/images/screen.png?raw=true "HW Week 01 Screenshot")
 
 # Collaboration
-Kirtley Adams
-Erna Lukac
+Kirtley Adams, Erna Lukac
