@@ -8,9 +8,7 @@ and displays projects done in and out of class. Links are provided in the contac
 # Final Version
 https://esotericz.github.io/hw-week02/
 
-![Alt text](/assets/images/screen01.jpg?raw=true "HW Week 01 Screenshot - 01")
-![Alt text](/assets/images/screen02.jpg?raw=true "HW Week 01 Screenshot - 02")
-![Alt text](/assets/images/screen03.jpg?raw=true "HW Week 01 Screenshot - 03")
+![Alt text](/assets/images/screen.png?raw=true "HW Week 01 Screenshot")
 
 # Collaboration
 Kirtley Adams
