@@ -123,79 +123,53 @@ section {
 #projects {
     background-image: url("../images/bg3.jpg");
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} 
 
-#projects header {
+#projects h1 {
     color: white;
+    font-size: 45px;
     font-weight: bold;
-    font-size: 25px;
+    text-align: center;
 }
 
-/* FLEX BOX LEFT SIDE (ONE BOX) */
-.first {
-    width: 50%;
-    flex: 1;
+#projects img {
+    object-fit: cover;
+    height: 350px;
 }
 
-.lbox {
-    border-radius: 15px;
-    border: solid grey 10px;
-    width: 90%;
-    height: 500px;
-    background-color: pink;
-    box-shadow: 5px 5px rgba(81, 241, 41, 0.952);
-    margin-left: 50px;
-    padding: 25px;
-    position: relative;
-}
-
-.lbox p {
-    color: white;
-    font-size: 20px;
-    position: relative;
-    bottom: 0;
-    left: 20;
-}
-
-.lbox a {
-    color: white;
-    font-size: 20px;
-    position: relative;
-}
-
-/* FLEX BOX RIGHT SIDE (FOUR BOXES) */
-.second {
-    width: 50%;
-    flex: 1;
+#parent {
+    padding: 30px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.rbox1, .rbox2, .rbox3, .rbox4 {
-    border-radius: 10px;
-    border: solid white 5px;
-    width: 45%;
-    height: 225px;
-    background-color: turquoise;
-    margin: 25px 25px 10px 10px;
-    padding: 25px;
-    box-shadow: 5px 5px rgba(247, 174, 19, 0.75);
+#parent h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.rbox1 a, .rbox2 a, .rbox3 a, .rbox4 a {
+#parent a {
     color: white;
     font-size: 20px;
-    position: relative;
+    font-weight: bold;
+    display: block;
+    text-align: center;
 }
 
-.rbox1 p, .rbox2 p, .rbox3 p, .rbox4 p {
-    color: white;
-    font-size: 20px;
-    position: relative;
-    bottom: 0;
-    left: 20;
+.child {
+    height: 200px;
+    background: red;
+    flex: 1;
+    min-width: 25%;
+    border: 5px solid white;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 /* FOOTER CHARACTERITICS */
@@ -249,6 +223,11 @@ footer a {
         background: none;
         background-color:  rgba(71, 9, 112, 0.952);
     }
+
+    .child {
+        min-width: 50%;
+        height: 125px;
+    }
 }
 
 /* RESIZING THE SCREEN - UNDER 651px CHANGE PROPERTIES */
@@ -284,8 +263,25 @@ footer a {
         background-color: darkblue;
     }
 
+    #parent h2 {
+        font-size: 15px;
+    }
+    
+    #parent a {
+        font-size: 12.5px;
+    }
+
     #projects {
         background: none;
         background-color:  rgba(71, 9, 112, 0.952);
+    }
+
+    #projects img {
+        height: 250px;
+    }
+
+    .child {
+        min-width: 100%;
+        height: 85px;
     }
 }
