@@ -15,6 +15,3 @@ https://esotericz.github.io/hw-week02/
 # Collaboration
 Kirtley Adams
 Erna Lukac
-
-# Work In Progress
-Flex box issues when resizing the screen - not behaving as expected.
