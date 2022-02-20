@@ -6,7 +6,7 @@ Create an online porfolio without using bootstrap to showcae your skills and tal
 and displays projects done in and out of class. Links are provided in the contact me portion as well as hyperlinks to other projects and relevant data.
 
 # Final Version
-https://esotericz.github.io/hw-week02/
+https://esotericz.github.io/portfolio-old/
 
 ![Alt text](/assets/images/screen.png?raw=true "HW Week 01 Screenshot")
 
